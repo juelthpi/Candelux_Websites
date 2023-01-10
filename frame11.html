@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        <link rel="icon" type="image/x-icon" href="assets/images/8.png">
+        <title>Frame11</title>
+        <link rel="icon" href="assets/images/favicon.png">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <!-- f11 Slider -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+        <!-- Normalize -->
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+         <!-- Animation -->
+         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="assets/css/nivo-slider.css">
+      
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/mresponsive.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+    	
+        <!-- start booking form popup -->
+    	<div class="book_show_popup_main">
+        	<div class="book_show_popup">
+		        <section class="online_booking_form_area">
+		            <div class="online_booking_form">
+		                <div class="help_right_bar">
+		                    <div class="online_close_btn">
+		                        <a href="#"><img src="assets/images/c_close.png" alt=""></a>
+		                    </div>
+		                    <div class="help_right_inner_area">
+		                        <h1 data-aos="fade-right">Online Booking Request</h1>
+		                        <h5 data-aos="fade-left">Trip Information</h5>
+		                        <div class="help_page_form_area" data-aos="flip-left" data-aos-duration="500">
+		                            <form>
+		                                <div class="help_in_itms">
+		                                    <input type="text" placeholder="Property Name">
+		                                </div>
+		                                <div class="help_in_itms">
+		                                    <p>Type of Property</p>
+		                                    <ul class="respons_wrap">
+		                                        <li><label><input type="radio" name="radios"><span>Short Rental</span></label></li>
+		                                        <li><label><input type="radio" name="radios"><span>Mid-term Rental</span></label></li>
+		                                        <li><label><input type="radio" name="radios"><span>Long Rental</span></label></li>
+		                                        <li><label><input type="radio" name="radios"><span>Sale</span></label></li>
+		                                    </ul>
+		                                </div>
+
+		                                <div class="help_in_itms">
+		                                    <p>No. of Guests</p>
+		                                    <div class="increment_btn">
+		                                        <ul>
+		                                            <li>Adults</li>
+		                                            
+		                                            <li> <div class="pbbsr_right_contents pbbsr_right_contentss">
+														<span class="c_inputs" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ><i class="fas fa-minus"></i></span>
+														<input class="quantity quantitya" min="2" name="quantity" value="1" type="number">
+														<span class="c_inputs" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="far fa-plus"></i></span>
+													</div></li>
+		                                            
+		                                        </ul>
+		                                        <ul>
+		                                           <li>Children</li>
+		                                           <li> <div class="pbbsr_right_contents pbbsr_right_contentss">
+	            									<span class="c_inputs" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ><i class="fas fa-minus"></i></span>
+	            									<input class="quantity quantitya" min="2" name="quantity" value="1" type="number">
+	            									<span class="c_inputs" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"><i class="far fa-plus"></i></span>
+	            								</div></li>
+		                                           
+		                                       </ul>
+		                                    </div>
+		                                </div>
+		                                <div class="cheking_date">
+		                                    <ul>
+		                                        <li><p>Check in Date</p><span><input type="text" placeholder="Wed, 16 Feb, 2022" id="chekc_indate"></span></li>
+		                                        <li><p>Check out Date</p><span> <input type="text" id="check_out_date" placeholder="Wed, 16 Feb, 2022"></span></li>
+		                                        
+		                                    </ul>
+		                                </div>
+		                                <div class="text_area">
+		                                    <textarea placeholder="Message"></textarea>
+		                                </div>
+		                                <div class="personal_infrom_fild" data-aos="zoom-in-up" data-aos-duration="1000">
+		                                    <h4>Personal Information</h4>
+		                                    <div class="personal_itms_inform">
+		                                        <input type="text" placeholder="Full Name">
+		                                    </div>
+		                                    <div class="personal_itms_inform">
+		                                        <input type="email" placeholder="Email">
+		                                    </div>
+		                                    <div class="personal_itms_inform">
+		                                        <input type="number" placeholder="Contact Phone Number">
+		                                    </div>
+		                                    <div class="personal_itms_inform">
+		                                        <input type="text" placeholder="Country">
+		                                    </div>
+		                                    <div class="personal_itms_check personal_itms_checka">
+		                                        <label><input type="radio" name="personal_check">I acknowledge and agree to the terms set forth in the Privacy Policy of  CadenzaLux, which I have read and understood.</label>
+		                                    </div>
+		                                    <div class="personal_itms_check">
+		                                        <label><input type="radio" name="personal_check"> I want to receive information and newsletters provided by CadenzaLux via email.</label>
+		                                    </div>
+		                                    <div class="submitss">
+		                                        <input type="submit" value="submit">
+		                                    </div>
+
+		                                </div>
+		                            </form>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </section>
+        	</div>
+        </div>
+		<!-- end booking form popup -->
+
+
+
+
+
+        <!--============================  Start Header Section  ==========================-->
+        <header class="header_main" data-aos="fade-down" data-aos-duration="500">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="header f11_header">
+                            <div class="logo">
+                                <div class="logos_images">
+                                    <div class="logos_image_1st">
+                                        <a href="#"><img src="assets/images/logo.png" alt="images"></a>
+                                    </div>
+                                    <div class="logos_image_2nd">
+                                        <a href="#"><img src="assets/images/logo2.png" alt="images"></a>
+                                    </div>
+                                </div>
+                                <div class="logo_mobile_icon">
+                                    <a href="#">
+                                        <svg width="31" height="20" viewBox="0 0 31 20" fill="red" xmlns="http://www.w3.org/2000/svg">
+                                            <line class="svg_color" y1="1.25" x2="31" y2="1.25" stroke-width="1.5"/>
+                                            <line class="svg_color" y1="10.25" x2="31" y2="10.25" stroke-width="1.5"/>
+                                            <line class="svg_color" y1="19.25" x2="31" y2="19.25" stroke-width="1.5"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="menu_main">
+                                <div class="menu_close_icon">
+                                    <a href="#"><img src="assets/images/mobile_close.svg" alt="images"></a>
+                                </div>
+                                <div class="menu_logo">
+                                    <a href="#"><img src="assets/images/logo.png" alt="images"></a>
+                                </div>
+                                <div class="menu_item_and_btn">
+                                	<div class="menu properties_menu_home f11_menu_home">
+	                                    <ul>
+											<li><a href="properties.html">Our-Properties</a></li>
+											<li><a href="frame_3.html">Short-term Rentals</a></li>
+											<li><a href="frame_6.html">Mid-term Rentals</a></li>
+											<li><a href="frame11.html">Real Estate</a></li>
+											<li><a href="frame20.html">Locations</a></li>
+											<li><a href="frame_9.html">About Us</a></li>
+											<li><a href="frame_18.html">Our Policy</a></li>
+											<li><a href="frame_12.html">News</a></li>
+											<li><a href="frame21.html">Contact</a></li>
+										</ul>
+	                                </div>
+	                                <div class="menu_btn f11_menu_btn_desktop f11_menu_btn">
+	                                    <a href="#" class="btn_design btn_designf11">BOOK NOW</a>
+                                	</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--==============================  End Header Section  ==========================-->
+
+        <!--==============================  Start Banner Section  ==========================-->
+        <section class="banner_main frame11_banner_main">
+            <div class="banner">
+                <div class="Slider f11_padding">
+                    <div class="container">
+                        <div class="Slider-content" data-aos="fade-left" data-aos-duration="1000">
+                            <div class="frame11_banner">
+	            				<h1>The Stone Ocean Villa</h1>
+	            				<p>Cascais, Lisboa</p>
+	                            <div class="menu_btn f11_menu_btn_mobile f11_menu_btn">
+	                                <a href="#" class="btn_design btn_designf11">BOOK NOW</a>
+	                        	</div>
+	            			</div>
+                        </div>
+                    </div>
+                 
+                    <div class="Slider-slide show" style="background-image: url('assets/images/p23_banner.png');"></div>
+                    <div class="Slider-slide" style="background-image: url('assets/images/banner2.png');"></div>
+                    <div class="Slider-slide" style="background-image: url('assets/images/banner3.png');"></div>
+                    <div class="Slider-slide" style="background-image: url('assets/images/banner4.png');"></div>
+                    <div class="Slider-slide" style="background-image: url('assets/images/banner5.png');"></div>
+                    <div class="Slider-slide" style="background-image: url('assets/images/banner6.png');"></div>
+                    <div class="Slider-slide" style="background-image: url('assets/images/banner7.png');"></div>
+                    <div class="Slider-slide" style="background-image: url('assets/images/banner8.png');"></div>
+                </div>
+            </div>
+        </section>
+        <!--==============================  End Banner Section  ==========================-->
+
+
+
+        
+
+
+
+
+        <!--===========================  Start PROPERTY DETAILS Section  =======================-->
+        <section class="f11_property_details_main" data-aos="fade-right" data-aos-duration="1000">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="f11_property_details">
+        					<p>PROPERTY DETAILS</p>
+        					<h1>Only a stone’s throw from the beautiful beaches and renowned restaurants of Portugal’s <i>famous Southern coastline</i></h1>
+        					<div class="f11pd_items">
+        						<div class="f11pd_items_left">
+        							<p>Starting from €1,400.00 per night</p>
+        						</div>
+        						<div class="f11pd_items_right">
+        							<div class="properties_single_item_contents_right f11s_items">
+        								<ul>
+        									<li>
+        										<a href="#">
+	        										<span class="psicr_number">10 people</span>
+	        									</a>
+	        								</li>
+        									<li>
+        										<a href="#">
+	        										<span class="psicr_number">5 bed</span>
+	        									</a>
+	        								</li>
+        									<li>
+        										<a href="#">
+	        										<span class="psicr_number">4 bath</span>
+	        									</a>
+	        								</li>
+        									<li>
+        										<a href="#">
+	        										<span class="psicr_number">7 staff</span>
+	        									</a>
+	        								</li>
+        									<li>
+        										<a href="#">
+	        										<span class="psicr_number">2 chef</span>
+	        									</a>
+	        								</li>
+        								</ul>
+        							</div>
+        						</div>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--============================  End PROPERTY DETAILS Section  ========================-->
+
+        <!--============================  Start Property Gallery Section  ========================-->
+        <section class="frame11_slider" data-aos="fade-up" data-aos-duration="500">
+        	<div class="container">
+        		<div class="frame11_slider_title">
+	        		<h1>Property Gallery</h1>
+	        	</div>
+        	</div>
+
+			<div class="full_screen_gallery">
+				<div class="full_screen_gallery_pos">
+					<a href="#"><img src="assets/images/full_screen.png" alt="image"></a>
+				</div>
+
+				<div class="slider">
+				  <div class="slider__item">
+				    <img src="assets/images/f11_slider.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/f11_property_back.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner3.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner4.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner5.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner6.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner7.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner8.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/f11_property_back.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/f11_property_back2.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner4.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner5.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner6.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner7.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/banner8.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/f11_property_back.png" alt="">
+				  </div>
+				  <div class="slider__item">
+				    <img src="assets/images/f11_property_back2.png" alt="">
+				  </div>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="slider_bottom">
+					<div class="slider_bottom_left">
+						<p>Top of The Hill Villa, <i>Comporta, Granola V5</i></p>
+					</div>
+					<div class="slider_bottom_right">
+						<ul>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+        </section>
+        <!--============================  End Property Gallery Section  ========================-->
+
+        <!--============================  Start THE PROPERTY Section  ========================-->
+        <section class="f11_the_property_main">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="f11_the_property">
+        					<div class="f11_the_property_left" data-aos="fade-right" data-aos-duration="500">
+        						<p>THE PROPERTY</p>
+        						<h1>Located in the enviable location of Cascais, only a stone’s throw from the beautiful beaches and renowned restaurants of Portugal’s famous Southern coastline, lies the The Stone Ocean Villa. </h1>
+        						<p>This spacious villa, designed by the famous Francisco Conceição da Silva, has room for 10 guests, featuring 5 spacious double bedrooms and a breathtakingly magnificent interior design scheme. Split over two floors, the villa is designed in wooden oak panelling that is juxtaposed with fresh white and cream sofa coverings and huge windows that shed the gorgeous Portuguese sunshine into the house at all hours.</p>
+        					</div>
+        					<div class="f11_the_property_right" data-aos="fade-left" data-aos-duration="500" style="background-image: url(assets/images/the_property.png);">
+        						
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--============================  End THE PROPERTY Section  ========================-->
+
+        <section class="frame11_property_back" data-aos="fade-up-left" style="background-image: url(assets/images/f11_property_back.png);">
+        	
+        </section>
+
+        <!--===========================  Strart The main living room Section  =======================-->
+        <div class="the_main_living_room_main">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="the_main_living_room">
+        					<div class="the_main_living_room_left" data-aos="fade-right" data-aos-duration="500" style="background-image: url(assets/images/f11_the_mainlr.png);">
+        						
+        					</div>
+        					<div class="the_main_living_room_right" data-aos="fade-left" data-aos-duration="500">
+        						<h1>The main living room acts as a central hub for you and all your guests and is a magnificent room.</h1>
+        						<p>Featuring floor to ceiling windows, huge plush sofas that can accommodate the entire party, and secret alcoves with book shelves nestled into their crevices for those of your party who may seek a quieter moment. Sloping glass windows complete with billowing white curtains face onto the glistening pool and gardens beyond.</p>
+        						<p>There is also a fireplace in one of the sitting rooms.  Behind these sloping windows is positioned the dining room table, which features enough seats for the whole party. Another dining table is located elsewhere in the house, with plush blue velvet chairs and feather sculptures on the walls to create a sense of mystery and excitement.  The marble floors and wooden interiors create a feeling of subtle grandiose, and this is added to by the positioning of a wooden grand piano by one of the windows overlooking the greenery outside.</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <!--============================  End The main living room Section  =========================-->
+
+        <!--============================  Start BREAKING TEXT Section  =========================-->
+        <section class="f11_breaking_text_main">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="f11_breaking_text" data-aos="zoom-in">
+        					<p>BREAKING TEXT GOES IN THIS SECTION</p>
+        					<h1>Days of total relaxation by the pool</h1>
+        					<p>A separate, smaller sitting room features an entirely white colour scheme and a TV, which is perfect for plunking kids in front of or for an evening of total relaxation. From here, steps lead to the upper floor of the villa.  The apartment of the main house is located here, and it features a large master bedroom with its own bathroom and terrace.  The other bedrooms are done up in a bright, refreshing, modern style, with white sheets and subtle colour schemes.</p>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--============================  End BREAKING TEXT Section  =========================-->
+        <section class="frame11_property_back frame11_property_back2" data-aos="zoom-in-up" style="background-image: url(assets/images/f11_property_back2.png);">
+        	
+        </section>
+
+        <!--============================  Start THE PROPERTY Section  ========================-->
+        <section class="f11_the_property_main">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="f11_the_property">
+        					<div class="f11_the_property_left" data-aos="fade-left">
+        						<p>THE PROPERTY</p>
+        						<h1>Some feature private balconies with views of the ocean beyond. Bathrooms and bedrooms are done up with guests’ utmost comfort in mind.</h1>
+        						<div class="f11_the_property_left2 f11_the_property_left23">
+        							<p>A chapel, which has now been turned into a one bedroom en suite studio is the final piece of the puzzle for this villa, with its own private roof terrace complete with sunbeds and chairs.</p>
+	        						<p>The outside of the The Stone Ocean Villa is equally as beautiful. The swimming pool is huge, and its dark blue waters are truly alluring.  With sunbeds located around the pool, complete with their own umbrellas, there’s space for everyone to kick back and relax. An outdoor bed is located at one corner of the pool, shrouded in white curtains and a roof overhead, making it the perfect place for a mid-afternoon nap for those who may have had too much sun! There is also a trampoline in the gardens to keep the children busy.  There is also private parking located in the grounds of the villa.</p>
+	        						<p>As always, our five star concierge service is on hand to deal with your every request. A stay at the The Stone Ocean Villa feels like a stay in paradise.</p>
+        						</div>
+        					</div>
+        					<div class="f11_the_property_right" data-aos="fade-right" style="background-image: url(assets/images/the_property2.png);">
+        						
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--============================  End THE PROPERTY Section  ========================-->
+
+        <!--============================  Start ESSENTIAL INFORMATION Section  ========================-->
+        <section class="essential_information_main" data-aos="zoom-out" data-aos-duration="800">
+        	<div class="container essential_information_mainPPP">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="essential_information">
+        					<div class="essential_information_title">
+        						<p>ESSENTIAL INFORMATION</p>
+        						<h1>Property Details</h1>
+        					</div>
+        					<div class="essential_information_all_items">
+        						<!-- Start Single item -->
+        						<div class="essential_information_single_items f11_items_mobile_none">
+        							<div class="essential_information_single_items_title">
+        								<h1>General</h1>
+        							</div>
+        							<div class="row gx-5"> <!-- eisit_items -->
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Check in: 12h-22h</a></li>
+			        								<li><a href="#">Check out: 10h</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Total Area: 2.000 m2</a></li>
+			        								<li><a href="#">Floors: 1</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Bedrooms: 2</a></li>
+			        								<li><a href="#">BATHROoms: 2</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Sleeps: 4</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        							</div>
+        						</div>
+
+        						<!-- Start mobile design accordion -->
+        						<div class="f11_accordion_mobile" style="margin-top: 34px;">
+        							<div class="accordion">
+								      <div class="accordion-item">
+								        <button class="accordion-item__button">General</button>
+								        <div class="accordion-item__content">
+									        <div class="eisit_items eisit_itemsc">
+		        								<div class="eisit_single_item eisit_single_itemc">
+		        									<ul>
+				        								<li><a href="#">Check in: 12h-22h</a></li>
+				        								<li><a href="#">Check out: 10h</a></li>
+				        							</ul>
+		        								</div>
+		        								<div class="eisit_single_item">
+		        									<ul>
+				        								<li><a href="#">Total Area: 2.000 m2</a></li>
+				        								<li><a href="#">Floors: 1</a></li>
+				        							</ul>
+		        								</div>
+		        								<div class="eisit_single_item">
+		        									<ul>
+				        								<li><a href="#">Bedrooms: 2</a></li>
+				        								<li><a href="#">BATHROoms: 2</a></li>
+				        							</ul>
+		        								</div>
+		        								<div class="eisit_single_item">
+		        									<ul>
+				        								<li><a href="#">Sleeps: 4</a></li>
+				        							</ul>
+		        								</div>
+		        							</div>
+								        </div>
+								      </div>
+								    </div>
+        						</div>
+							    <!-- End mobile design accordion -->
+        						<!-- End Single item -->
+
+        						<!-- Start Single item -->
+        						<div class="essential_information_single_items">
+        							<div class="essential_information_single_items_title">
+        								<h1>Amenities</h1>
+        								<p>Included</p>
+        							</div>
+        							<div class="row gx-5">
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Air Conditioning</a></li>
+			        								<li><a href="#">Bed Linen</a></li>
+			        								<li><a href="#">Board and Iron</a></li>
+			        								<li><a href="#">Cable/ satellite TV & wireless internet</a></li>
+			        								<li><a href="#">Central heating</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Hair dryer</a></li>
+			        								<li><a href="#">Sound System</a></li>
+			        								<li><a href="#">Towels</a></li>
+			        								<li><a href="#">Espresso Machine</a></li>
+			        								<li><a href="#">Oven</a></li>
+			        								<li><a href="#">Plates and Cutlery</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Refrigerator</a></li>
+			        								<li><a href="#">Stove</a></li>
+			        								<li><a href="#">Washing Machine</a></li>
+			        								<li><a href="#">Balcony</a></li>
+			        								<li><a href="#">BBQ Area</a></li>
+			        								<li><a href="#">Fireplace</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Garden</a></li>
+			        								<li><a href="#">Golf Proximity</a></li>
+			        								<li><a href="#">Outdoor dining</a></li>
+			        								<li><a href="#">Parking Space</a></li>
+			        								<li><a href="#">Swimming Pool</a></li>
+			        								<li><a href="#">Terrace</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        							</div>
+        						</div>
+        						<!-- End Single item -->
+        						<!-- Start Single item -->
+        						<div class="essential_information_single_items f11_items_mobile_none">
+        							<div class="essential_information_single_items_title">
+        								<h1>Services</h1>
+        								<p>Included</p>
+        							</div>
+        							<div class="row gx-5">
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Check in with welcome tour of the property</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">PDF suggestions guide</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Concierge services</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-3">
+        									<div class="eisit_single_item">
+	        									<ul>
+			        								<li><a href="#">Welcome hamper gift</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        							</div>
+        						</div>
+        						<!-- Start mobile design accordion -->
+        						<div class="f11_accordion_mobile">
+        							<div class="accordion">
+								      <div class="accordion-item">
+								        <button class="accordion-item__button accordion_ib_after">Services<br><span>Included</span></button>
+								        <div class="accordion-item__content">
+									        <div class="eisit_items eisit_itemsc">
+		        								<div class="eisit_single_item eisit_single_itemc">
+		        									<ul>
+				        								<li><a href="#">Check in with welcome tour of the property</a></li>
+				        								<li><a href="#">PDF suggestions guide</a></li>
+				        								<li><a href="#">Concierge services</a></li>
+				        								<li><a href="#">Welcome hamper gift</a></li>
+				        							</ul>
+		        								</div>
+		        							</div>
+								        </div>
+								      </div>
+								    </div>
+        						</div>
+							    <!-- End mobile design accordion -->
+        						<!-- End Single item -->
+
+        						<!-- Start Single item -->
+        						<div class="essential_information_single_items f11_items_mobile_none">
+        							<div class="essential_information_single_items_title">
+        								<h1>Services</h1>
+        								<p>At an added cost</p>
+        							</div>
+        							<div class="row gx-5">
+        								<div class="col-md-6">
+        									<div class="eisit_single_item eisit_single_item2">
+	        									<ul>
+			        								<li><a href="#">Added cleaning staff hours</a></li>
+			        								<li><a href="#">Airport car collections & drop-offs</a></li>
+			        								<li><a href="#">Babysitting services</a></li>
+			        								<li><a href="#">Bespoke experience packages</a></li>
+			        								<li><a href="#">Car hire & chauffeur</a></li>
+			        								<li><a href="#">Car rental bookings</a></li>
+			        								<li><a href="#">Night-club guest-lists</a></li>
+			        								<li><a href="#">Pre-arrival grocery shopping</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        								<div class="col-md-6">
+        									<div class="eisit_single_item eisit_single_item2">
+	        									<ul>
+			        								<li><a href="#">Private Chef & catering services</a></li>
+			        								<li><a href="#">Private Helicopter</a></li>
+			        								<li><a href="#">Private Jets</a></li>
+			        								<li><a href="#">Restaurant bookings</a></li>
+			        								<li><a href="#">Sightseeing tours</a></li>
+			        								<li><a href="#">Spa Treatments offered on location</a></li>
+			        								<li><a href="#">Specialised sporting activities & boat hire</a></li>
+			        								<li><a href="#">Yoga & PT private lessons</a></li>
+			        							</ul>
+	        								</div>
+        								</div>
+        							</div>
+        						</div>
+        						<!-- Start mobile design accordion -->
+        						<div class="f11_accordion_mobile">
+        							<div class="accordion">
+								      <div class="accordion-item">
+								        <button class="accordion-item__button accordion_ib_after">Services<br><span>At an added cost</span></button>
+								        <div class="accordion-item__content">
+									        <div class="eisit_items eisit_itemsc">
+		        								<div class="eisit_single_item eisit_single_itemc">
+		        									<ul>
+				        								<li><a href="#">Added cleaning staff hours</a></li>
+				        								<li><a href="#">Airport car collections & drop-offs</a></li>
+				        								<li><a href="#">Babysitting services</a></li>
+				        								<li><a href="#">Bespoke experience packages</a></li>
+				        								<li><a href="#">Car hire & chauffeur</a></li>
+				        								<li><a href="#">Car rental bookings</a></li>
+				        								<li><a href="#">Night-club guest-lists</a></li>
+				        								<li><a href="#">Pre-arrival grocery shopping</a></li>
+				        								<li><a href="#">Private Chef & catering services</a></li>
+				        								<li><a href="#">Private Helicopter</a></li>
+				        								<li><a href="#">Private Jets</a></li>
+				        								<li><a href="#">Restaurant bookings</a></li>
+				        								<li><a href="#">Sightseeing tours</a></li>
+				        								<li><a href="#">Spa Treatments offered on location</a></li>
+				        								<li><a href="#">Specialised sporting activities & boat hire</a></li>
+				        								<li><a href="#">Yoga & PT private lessons</a></li>
+				        							</ul>
+		        								</div>
+		        							</div>
+								        </div>
+								      </div>
+								    </div>
+        						</div>
+							    <!-- End mobile design accordion -->
+        						<!-- End Single item -->
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <!--============================  End ESSENTIAL INFORMATION Section  ========================-->
+
+        <!--============================  Start Similar Properties Section  ========================-->
+        <div class="f11_similer_property_main">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-md-12">
+        				<div class="f11_similer_property">
+        					<div class="f11_similer_property_title">
+        						<h1>Similar Properties</h1>
+        						<a href="#" class="btn_design">VIEW MORE PROPERTIES</a>
+        					</div>
+
+        					<div class="all_single_items">
+	        					<!-- Start Single item -->
+	        					<div class="properties_single_item properties_single_itemf11nd" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+	        						<div class="properties_single_item_img properties_single_item_imgf11" style="background-image: url(assets/images/properties9.png);">
+	        						</div>
+	        						<div class="properties_single_item_contents psic2p">
+	        							<div class="properties_single_item_contents_left">
+	        								<p>Top of The Hill Villa</p>
+	        								<p>Comporta, Grandola V5</p>
+	        								<p>Starting from £0,000 per night</p>
+	        							</div>
+	        							<div class="properties_single_item_contents_right">
+	        								<ul>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">10 people</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">5 bed</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">4 bath</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">7 staff</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">2 chef</span>
+		        									</a>
+		        								</li>
+	        								</ul>
+	        							</div>
+	        						</div>
+	        					</div>
+	        					<!-- End Single item -->
+
+	        					<!-- Start Single item -->
+	        					<div class="properties_single_item properties_single_itemf11nd" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+	        						<div class="properties_single_item_img properties_single_item_imgf11" style="background-image: url(assets/images/properties10.png);">
+	        						</div>
+	        						<div class="properties_single_item_contents psic2p">
+	        							<div class="properties_single_item_contents_left">
+	        								<p>Top of The Hill Villa</p>
+	        								<p>Comporta, Grandola V5</p>
+	        								<p>Starting from £0,000 per night</p>
+	        							</div>
+	        							<div class="properties_single_item_contents_right">
+	        								<ul>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">10 people</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">5 bed</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">4 bath</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">7 staff</span>
+		        									</a>
+		        								</li>
+	        									<li>
+	        										<a href="#">
+		        										<span class="psicr_number">2 chef</span>
+		        									</a>
+		        								</li>
+	        								</ul>
+	        							</div>
+	        						</div>
+	        					</div>
+	        					<!-- End Single item -->
+        					</div>
+
+	        				<div class="f11_similer_property_lb">
+	        					<a href="#" class="btn_design">MORE PROPERTIES</a>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <!--============================  End Similar Properties Section  ========================-->
+
+        <!--============================== Strart  Footer  Section  ==========================-->
+         <footer class="footer_main_area">
+             <div class="footer_top_thum" data-aos="zoom-out-down" style="background-image: url(assets/images/2.png);">
+
+             </div>
+             <div class="container3">
+                 <div class="footer_area" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="subscript_form_area">
+                        <h2>CadenzaLux</h2>
+                        <h3>Sign up to our newsletter</h3>
+                        <div class="form_s_m_area">
+                            <form>
+                                <div class="form_s_area">
+                                    <div class="form_s_file emails">
+                                        <input type="email" placeholder="Email Address">
+                                    </div>
+                                    
+                                    <div class="form_s_file submits">
+                                        <input type="submit" value="Subscribe">
+                                    </div>
+                                </div>
+                               <div class="polici_fild polici_fildmu">
+                                 <div class="form-group polici_fildmun">
+                                  <input type="checkbox" id="javascript">
+                                  <label for="javascript"></label>
+                                 </div>
+                                    <div class="polici_fildmun_p">
+                                        <p>By submitting your details, you accept our privacy policy.</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="container4">
+                 <div class="footer_bottom_area">
+                     <div class="footer_left" data-aos="fade-right" data-aos-duration="1000">
+                        <div class="footer_address">
+                            <ul>
+                                <li><h6>RESERVATIONS</h6></li>
+                                <li><a href="tel:+351937934743">+351 937 934 743</a></li>
+                                <li><a href="mailto:">reservations@cadenzalux.com</a></li>
+                            </ul>
+                            <ul>
+                               <li><h6>GENERAL INFORMATION & PRESS</h6></li>
+                               <li><a href="tel:+351214029418">+351 214 029 418</a></li>
+                               <li><a href="mailto:info@cadenzalux.com">info@cadenzalux.com</a></li>
+                           </ul>
+                           <ul>
+                               <li><h6>FIND US</h6></li>
+                               <li><a href="#">Wanda von Breisky Unipessoal Limitada,  Rua Braamcamp, 6, 1.º Esq.º,  1250 050 Lisbon</a></li>
+                                
+                           </ul>
+                        </div>
+                        <div class="social_cont">
+                            <ul>
+                                 <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                     </div>
+                     <div class="footer_right" data-aos="fade-left" data-aos-duration="1000">
+                        <div class="social_cont">
+                            <ul>
+                                <li><a href="#">Owners</a></li>
+                                <li><a href="#">Terms & Conditions of Use</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer_right_copy">
+                            <ul>
+                                <li><a href="#">Wanda von Breisky Unipessoal Limitada </a></li>
+                                <li><a href="#">Capital Social: 5.000,00 Euros - Certidão Permanente 7560-4780-3512</a></li>
+                                <li><a href="#">NIPC: 516158961 - Licença AMI 18337</a></li>
+                                <li><a href="#">&copy; 2022 . CADENZALUX. ALL RIGHTS RESERVED</a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </footer>
+		  
+        <!--===============================  End footer Section  ===========================-->
+
+
+
+
+
+
+       <!-- ~~~~~~~~~~ JS Files ~~~~~~~~~~-->
+        <!-- jQuery -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Owl Carousel -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+         <!-- f11 Slider -->
+         
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Mix it up -->
+        <script src="assets/js/mixitup.min.js"></script>
+        <!-- Modernizr -->
+        <script src="assets/js/modernizr-3.11.2.min.js"></script>
+        <!-- Animation -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- Custom JS (Handed)-->
+		<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+         <script src="assets/js/jquery.nivo.slider.js"></script>
+        <script src="assets/js/scriptsm.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <script>
+            var mixer = mixitup('.cus_mix_up');
+        </script>
+         
+    </body>
+</html>
